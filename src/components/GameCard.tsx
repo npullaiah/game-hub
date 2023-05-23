@@ -3,7 +3,7 @@ import { Game } from "../hooks/useGames";
 import { Card, CardBody, HStack, Heading, Image, Text } from "@chakra-ui/react";
 import PlatFormIconList from "./PlatFormIconList";
 import CriticScore from "./CriticScore";
-import getCroppedImageUrl from "../assets/services/image-url";
+import getCroppedImageUrl from "../services/image-url";
 
 interface Props {
   game: Game;
